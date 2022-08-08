@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct weatherappApp: App {
+struct main: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().ignoresSafeArea()
         }
     }
 }
