@@ -1,8 +1,6 @@
-//
-//  README.md
-//  weatherapp (iOS)
-//
-//  Created by Muhammed Yusuf Kaynak on 9.08.2022.
-//
+# Weather App
+A simple weather app developed by Swift Language.
+## Screenshot
 
-import Foundation
+![](https://github.com/mykynk/weatherapp_swift/blob/main/images/ss.png?raw=true)
+	

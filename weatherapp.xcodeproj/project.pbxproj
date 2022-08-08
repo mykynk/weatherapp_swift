@@ -10,6 +10,8 @@
 		EF2BFB4028A195F200532E1F /* Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFB3F28A195F200532E1F /* Substring.swift */; };
 		EF2BFB4228A196DE00532E1F /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFB4128A196DE00532E1F /* Lists.swift */; };
 		EF2BFB4428A1BBE300532E1F /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFB4328A1BBE300532E1F /* ApiKey.swift */; };
+		EF2BFB4628A1C20200532E1F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF2BFB4528A1C20200532E1F /* README.md */; };
+		EF2BFB4928A1C26200532E1F /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2BFB4828A1C26200532E1F /* ss.png */; };
 		EF6860A028A13F63006AFC25 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF68609F28A13F63006AFC25 /* WeatherViewModel.swift */; };
 		EF6860A228A148E7006AFC25 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6860A128A148E7006AFC25 /* ApiService.swift */; };
 		EF886D7328A04D3D009E43F3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF886D7228A04D3D009E43F3 /* Weather.swift */; };
@@ -57,6 +59,8 @@
 		EF2BFB3F28A195F200532E1F /* Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substring.swift; sourceTree = "<group>"; };
 		EF2BFB4128A196DE00532E1F /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		EF2BFB4328A1BBE300532E1F /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		EF2BFB4528A1C20200532E1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF2BFB4828A1C26200532E1F /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss.png; path = ../../../../ss.png; sourceTree = "<group>"; };
 		EF68609F28A13F63006AFC25 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		EF6860A128A148E7006AFC25 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		EF886D7228A04D3D009E43F3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -121,6 +125,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		EF2BFB4728A1C23200532E1F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BFB4828A1C26200532E1F /* ss.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		EF68609B28A13E01006AFC25 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +173,8 @@
 		EFE42A26289FCEE4009963C8 = {
 			isa = PBXGroup;
 			children = (
+				EF2BFB4528A1C20200532E1F /* README.md */,
+				EF2BFB4728A1C23200532E1F /* images */,
 				EFE42A2B289FCEE5009963C8 /* Shared */,
 				EFE42A3A289FCEE8009963C8 /* macOS */,
 				EFE42A43289FCEE8009963C8 /* Tests iOS */,
@@ -345,6 +359,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2BFB4628A1C20200532E1F /* README.md in Resources */,
+				EF2BFB4928A1C26200532E1F /* ss.png in Resources */,
 				EFE42A58289FCEE8009963C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
